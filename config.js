@@ -18,7 +18,6 @@ module.exports = {
         "Nice3point/RevitToolkit",
         "Nice3point/RevitExtensions",
         "Nice3point/RevitTemplates",
-        "Nice3point/Revit.Build.Tasks",
         "Nice3point/RevitUnit",
         "Nice3point/RevitBenchmark",
         "lookup-foundation/RevitLookup"
