@@ -33,5 +33,13 @@ module.exports = {
     labels: ["maintenance ⚙️"],
 
     // Disable semantic commits (removes chore(deps): prefix)
-    semanticCommits: "disabled"
+    semanticCommits: "disabled",
+    
+    // Custom package grouping rules
+    packageRules: [
+        {
+            groupName: "ModularPipelines",
+            matchPackagePatterns: ["^ModularPipelines"]
+        }
+    ]
 };
