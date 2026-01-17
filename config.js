@@ -39,7 +39,11 @@ module.exports = {
     packageRules: [
         {
             groupName: "ModularPipelines",
-            matchPackagePatterns: ["^ModularPipelines"]
+            matchPackageNames: ["/^ModularPipelines/"]
+        },
+        {
+            groupName: "Microsoft.Extensions",
+            matchPackageNames: ["/Microsoft.Extensions/"]
         }
     ]
 };
