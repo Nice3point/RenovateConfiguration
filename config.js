@@ -46,6 +46,14 @@ module.exports = {
         {
             groupName: "Microsoft.Extensions",
             matchPackageNames: ["/Microsoft.Extensions/"]
+        },
+        {
+            groupName: "OpenTelemetry",
+            matchPackageNames: ["/OpenTelemetry/"]
+        },
+        {
+            groupName: "Rebus",
+            matchPackageNames: ["/Rebus/"]
         }
     ]
 };
