@@ -52,6 +52,10 @@ module.exports = {
             matchPackageNames: ["/OpenTelemetry/"]
         },
         {
+            groupName: "WixSharp",
+            matchPackageNames: ["/WixSharp/"]
+        },
+        {
             groupName: "Rebus",
             matchPackageNames: ["/Rebus/"]
         }
