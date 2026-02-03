@@ -58,6 +58,11 @@ module.exports = {
         {
             groupName: "Rebus",
             matchPackageNames: ["/Rebus/"]
+        },
+        {
+            matchPackageNames: ["/Nice3point.*Revit/"],
+            matchUpdateTypes: ["major"],
+            enabled: false
         }
     ]
 };
