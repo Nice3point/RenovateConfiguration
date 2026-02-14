@@ -13,17 +13,8 @@ module.exports = {
     ],
 
     // Managed repositories
-    repositories: [
-        "Nice3point/RevitApi",
-        "Nice3point/RevitToolkit",
-        "Nice3point/RevitExtensions",
-        "Nice3point/RevitTemplates",
-        "Nice3point/RevitUnit",
-        "Nice3point/RevitBenchmark",
-        "lookup-foundation/RevitLookup",
-        "lookup-foundation/LookupEngine",
-        "lookup-foundation/LookupEngine.UI"
-    ],
+    autodiscover: true,
+    autodiscoverFilter: ["Nice3point/*"],
 
     // Create an Issue with a dashboard for all updates
     dependencyDashboard: false,
