@@ -32,7 +32,7 @@ module.exports = {
     packageRules: [
         {
             groupName: "ModularPipelines",
-            matchPackageNames: ["/^ModularPipelines/"]
+            matchPackageNames: ["/ModularPipelines/"]
         },
         {
             groupName: "Microsoft.Extensions",
@@ -49,6 +49,22 @@ module.exports = {
         {
             groupName: "Rebus",
             matchPackageNames: ["/Rebus/"]
+        },
+        {
+            groupName: "Nice3point.Revit.Toolkit",
+            matchPackageNames: ["/Nice3point\\.Revit\\.Toolkit/"]
+        },
+        {
+            groupName: "Nice3point.Revit.Extensions",
+            matchPackageNames: ["/Nice3point\\.Revit\\.Extensions/"]
+        },
+        {
+            groupName: "Nice3point.TUnit.Revit",
+            matchPackageNames: ["/Nice3point\\.TUnit\\.Revit/"]
+        },
+        {
+            groupName: "Nice3point.BenchmarkDotNet.Revit",
+            matchPackageNames: ["/Nice3point\\.BenchmarkDotNet\\.Revit/"]
         },
         {
             matchPackageNames: ["/Nice3point.*Revit/"],
