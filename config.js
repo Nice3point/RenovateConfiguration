@@ -51,6 +51,10 @@ module.exports = {
             matchPackageNames: ["/Rebus/"]
         },
         {
+            groupName: "NetEscapades",
+            matchPackageNames: ["/NetEscapades/"]
+        },
+        {
             groupName: "Nice3point.Revit.Toolkit",
             matchPackageNames: ["/Nice3point\\.Revit\\.Toolkit/"]
         },
