@@ -14,7 +14,7 @@ module.exports = {
 
     // Managed repositories
     autodiscover: true,
-    autodiscoverFilter: ["Nice3point/Revit*"],
+    autodiscoverFilter: ["Nice3point/Revit*", "lookup-foundation/*"],
     repositories: [
         "lookup-foundation/RevitLookup",
         "lookup-foundation/LookupEngine",
