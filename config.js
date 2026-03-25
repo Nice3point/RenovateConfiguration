@@ -14,7 +14,12 @@ module.exports = {
 
     // Managed repositories
     autodiscover: true,
-    autodiscoverFilter: ["Nice3point/*"],
+    autodiscoverFilter: ["Nice3point/Revit*"],
+    repositories: [
+        "lookup-foundation/RevitLookup",
+        "lookup-foundation/LookupEngine",
+        "lookup-foundation/LookupEngine.UI"
+    ],
 
     // Create an Issue with a dashboard for all updates
     dependencyDashboard: false,
