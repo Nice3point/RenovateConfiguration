@@ -36,6 +36,10 @@ module.exports = {
     // Custom package grouping rules
     packageRules: [
         {
+            groupName: "Aspire",
+            matchPackageNames: ["/Aspire/"]
+        },
+        {
             groupName: "ModularPipelines",
             matchPackageNames: ["/ModularPipelines/"]
         },
